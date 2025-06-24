@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    int[] arr={10,40,30,20};
+	    int sum=0;
+	    int i;
+	    float avg;
+	    for(i=0;i<arr.length;i++){
+	        sum+=arr[i];
+	    }
+	    System.out.println("Sum of elements:"+sum);
+	    avg=sum/arr.length;
+	    System.out.println("Average of elements:"+avg);
+	    
+	}
+}
